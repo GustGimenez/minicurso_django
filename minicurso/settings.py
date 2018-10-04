@@ -27,7 +27,7 @@ DEBUG = True
 
 # Permite requisições por esses caminhos...
 # Para localhost, nada deve ser feito, é mais para deploy
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
